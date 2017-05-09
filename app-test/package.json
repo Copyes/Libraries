@@ -1,0 +1,16 @@
+{
+  "name": "app-test",
+  "version": "1.0.0",
+  "description": "A project for testing the libs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.0"
+  }
+}
