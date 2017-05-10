@@ -4,11 +4,17 @@
   "description": "A project for testing the libs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "build": "node build.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0"
