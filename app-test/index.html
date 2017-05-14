@@ -14,29 +14,27 @@
 	<script src="./src/Gesture.js"></script>
 	<script>
 		//console.log(Gestrue)
-		new Gesture('body');
-		// var body = document.querySelector('body')
-		// var list = [
-		// 	'tap',
-		// 	'doubletap',
-		// 	'panstart',
-		// 	'horizontalpanstart',
-		// 	'verticalpanstart',
-		// 	'pan',
-		// 	'horizontalpan',
-		// 	'verticalpan',
-		// 	'panend',
-		// 	'flick',
-		// 	'horizontalflick',
-		// 	'verticalflick',
-		// 	'press',
-		// 	'pressend'
-		// ]
-		// list.forEach(function(v){
-		// 	body.addEventListener(v, function(){
-		// 		console.log('emit ' + v)
-		// 	})
-		// })
+		new Gesture('body', {
+		    // tap: function(){
+		    //     console.log('tap');
+		    // },
+		    // doubleTap: function(){
+		    //     console.log('dbtap');
+		    // },
+		    // longPress: function(){
+		    //     console.log('longpress');
+		    // },
+		    pinch: function(e){
+		        console.log('pinch');
+		    },
+		    // rotate: function(){
+		    //     console.log('rotate');
+		    // },
+		    // swipe: function(e){
+		    //     console.log(e.direction);
+		    // }
+		});
+
 	</script>
 </body>
 </html>
