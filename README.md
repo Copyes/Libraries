@@ -15,3 +15,7 @@
 >3、lib-swiper
 
 左右滑动的库
+
+>4、lib-barrage
+
+简单的弹幕封装
