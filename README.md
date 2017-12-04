@@ -4,18 +4,22 @@
 
 ### List
 
->1、lib-gesture
+> 1 、 lib-gesture
 
 简单的手势库
 
->2、lib-biscuit
+> 2、lib-biscuit
 
-简单的cookie操作库
+简单的 cookie 操作库
 
->3、lib-swiper
+> 3、lib-swiper
 
 左右滑动的库
 
->4、lib-barrage
+> 4、lib-barrage
 
 简单的弹幕封装
+
+> 5、lib-router
+
+简单的路由库
