@@ -20,6 +20,22 @@
 
 简单的弹幕封装
 
+#### usage
+
+```js
+var config = {
+  textArr: ['test', '我是你爸爸', '6666'],
+  speedRange: [2, 6],
+  container: '.barrage_container',
+  nums: 30,
+  fontSize: [10, 20],
+  pathNums: 10,
+  random: 300
+}
+
+new Barrage(config)
+```
+
 > 5、lib-router
 
 简单的路由库
